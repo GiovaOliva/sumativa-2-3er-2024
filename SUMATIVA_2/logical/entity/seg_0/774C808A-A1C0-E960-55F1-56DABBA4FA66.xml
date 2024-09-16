@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="774C808A-A1C0-E960-55F1-56DABBA4FA66" name="VALIDACION">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>3D11F1A7-C61C-9235-3E49-7CBBA8A2606C</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID VALIDACION" id="05EE0879-1D55-9150-395A-551DA3F67961">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>F6D3A8A3-1683-9C7B-5ABD-072AE498C800</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="C367D1D7-BB33-4E05-46FC-CE5A0C3EFCE1">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>74DEB770-51F8-E63E-0593-F74213A74E63</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALIDADO" id="2A84349D-D103-9D70-5B39-1E9FB9C3C681">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>A975FD6B-65B4-06B6-7059-55615ACBFD80</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALIDADOR" id="E9EADCA7-9000-1902-5947-E83394B2644E">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>6F2EA687-0BC8-EEB8-67CF-7D20983A28F1</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>925C4E37-C416-21EE-FC0C-109BC785850D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6810141-9469-0D26-FF89-95A69F0E6C58" name="VALIDACION PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>B71072C7-9EEC-0D8B-0021-E83B0A09D88C</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05EE0879-1D55-9150-395A-551DA3F67961</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

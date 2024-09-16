@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9792A374-D471-1FA4-5193-58A6690C714B" name="DETALLE_ORDEN_SERVICIOS">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:04:47 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDENES_DE_SERVICIOS_ID_ORDEN" id="98D296CD-0B09-4A9E-B28C-1BED9B9B2DA3">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:07:13 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CE01E29-4E05-797A-F16C-8326C88FF0DB" referredColumn="1E375B0E-34EA-3B3B-1518-C517FDB09FA8"/>
+</associations>
+</Column>
+<Column name="SERVICIOS_ID_SERVICIO" id="71552DC5-065F-E3D1-4606-FBB1616FF4F0">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:07:13 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97322035-C8A1-326B-A369-6EA6F4813FA2" referredColumn="4F288202-0126-0220-7B4F-BF7FFACB9478"/>
+</associations>
+</Column>
+<Column name="VALIDACION_ID_VALIDACION" id="B311C230-ADED-6DCB-5DFD-1451AA206E77">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:07:13 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02DD7BAF-8F5F-40CE-29F4-416546562F6D" referredColumn="F6D3A8A3-1683-9C7B-5ABD-072AE498C800"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="6E543B51-4532-625A-D173-1FDB284DC474">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:13:02 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADOS_ID_EMPLEADO" id="0213BFF3-4ED2-28CE-EC01-3AA905E2A2DF">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:33:47 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="494BD84D-5B3C-DB4F-8332-684178589E1C" referredColumn="BCF6D28D-6803-B67A-164E-0D4C03C636AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93FADF27-1600-9649-605C-88E20D602E23" name="DETALLE_ORDENES_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:16:00 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98D296CD-0B09-4A9E-B28C-1BED9B9B2DA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="745A2CAF-7CB6-2469-C6DC-71E70C82C95D" name="DETALLE_SERVICIOS_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:17:20 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71552DC5-065F-E3D1-4606-FBB1616FF4F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="368CD8E0-D40C-F4BF-DA68-BFBA07788C72" name="DETALLE_VALIDACION_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:17:20 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B311C230-ADED-6DCB-5DFD-1451AA206E77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="457F4173-61FA-FBB6-95E3-E9B99F090571" name="DETALLE_EMPLEADOS_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:38:43 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0213BFF3-4ED2-28CE-EC01-3AA905E2A2DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

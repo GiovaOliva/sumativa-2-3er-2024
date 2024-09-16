@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FA15D3D-BF05-0AF7-16E0-99B323E85685" name="SERVICIOS">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:07:31 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SERVICIO" id="4F288202-0126-0220-7B4F-BF7FFACB9478">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:09:33 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="3DF686D6-192F-AA8F-F642-6F6220181301">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:09:33 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="DFDA572E-5C7B-A424-FC91-51085DC88E8F">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:09:33 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EAF8D23-936D-F1EA-DBFA-224A7246CBE8" name="SERVICIOS_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:09:33 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F288202-0126-0220-7B4F-BF7FFACB9478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E100942-500B-FB7E-579D-139435DD2BD2" name="VEHICULOS">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>C1B68346-2A4D-93E7-A7C3-574FD214E5A9</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PATENTE" id="C10B4ACA-207C-EBDE-0B37-01F888A5C596">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>23660AC4-C29E-DE7F-1331-AC2105264530</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="CE8C8144-D17E-F485-0137-D6A23EC76EE5">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>C529E83E-8A0C-14B5-C503-443576635F49</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODELO" id="AD12F91A-E75E-5E19-6FAD-B531148B6CAF">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>F5BDBA94-1E9C-4CDF-33B2-D1F3B7604C8C</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AÑO" id="5D4C1D60-5843-A6A5-EC5C-01DC8DF424C2">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>7897DC5F-7E08-FEC1-5464-3FAFFB1BBC98</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CLIENTE" id="EE66B48D-5920-95B6-9DC0-5863ACA3845D">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>4939613A-E1DE-5448-BD7B-C5A905AC1C1E</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>7509DD8C-D800-E751-A1CD-1554F358D300</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="5906531C-8042-46F9-1205-1DCDFF03F79B">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:53:59 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67A10D98-A946-E497-CCDE-0A2DF72B34E9" name="VEHICULOS PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>4664B8AF-BF2F-8DFC-3DE6-9980BBB30FC7</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C10B4ACA-207C-EBDE-0B37-01F888A5C596</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

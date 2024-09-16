@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E22AC30-467A-8C85-565C-FEA707C32678" containerWithKeyObject="1AD7D588-62D2-229A-0BC6-D03695342656" localFKIndex="0E9112FD-8F41-C874-AFF0-514E1B9BD9A2" name="REPUESTOS_ORDENES_REPUESTOS_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 02:24:15 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<referredTableLongName>REPUESTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FDD310A-89CE-4AD2-5175-0E179FF6E3F4</referredTableID>
+<keyObject>475C5A10-1563-220B-94AA-D25C677A6D0A</keyObject>
+<referredKeyID>475C5A10-1563-220B-94AA-D25C677A6D0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REPUESTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

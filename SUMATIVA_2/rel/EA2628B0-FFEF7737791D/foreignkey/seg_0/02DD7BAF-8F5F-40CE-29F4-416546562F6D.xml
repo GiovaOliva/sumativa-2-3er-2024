@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02DD7BAF-8F5F-40CE-29F4-416546562F6D" containerWithKeyObject="9792A374-D471-1FA4-5193-58A6690C714B" localFKIndex="368CD8E0-D40C-F4BF-DA68-BFBA07788C72" name="DETALLE_VALIDACION_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:17:20 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<referredTableLongName>VALIDACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D11F1A7-C61C-9235-3E49-7CBBA8A2606C</referredTableID>
+<keyObject>B71072C7-9EEC-0D8B-0021-E83B0A09D88C</keyObject>
+<referredKeyID>B71072C7-9EEC-0D8B-0021-E83B0A09D88C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_VALIDACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1B68346-2A4D-93E7-A7C3-574FD214E5A9" name="VEHICULOS">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:46:24 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PATENTE" id="23660AC4-C29E-DE7F-1331-AC2105264530">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARCA" id="C529E83E-8A0C-14B5-C503-443576635F49">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO" id="F5BDBA94-1E9C-4CDF-33B2-D1F3B7604C8C">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AÑO" id="7897DC5F-7E08-FEC1-5464-3FAFFB1BBC98">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTES_RUT" id="EC62E4E6-20EC-0E51-0EB7-CB32A1873EFD">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A864985-EA16-74FC-B46D-B4E380DD000F" referredColumn="F610CC01-3707-A606-E51A-AE5B94160773"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="413E5715-50CE-BE4D-1D53-50433AD884CD">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 06:03:38 UTC</createdTime>
+<generatorID>5906531C-8042-46F9-1205-1DCDFF03F79B</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4664B8AF-BF2F-8DFC-3DE6-9980BBB30FC7" name="VEHICULOS_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23660AC4-C29E-DE7F-1331-AC2105264530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAA4A8FD-9C3C-2CA7-1690-DEA708B3FE3C" name="VEHICULOS_CLIENTES_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC62E4E6-20EC-0E51-0EB7-CB32A1873EFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VEHICULOS_ORDENES_FK" directorySegmentName="seg_0" id="5037C1FE-37CA-17A9-530F-498D1C61DE5B">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>A4F55C9D-15AB-3BD5-1422-0FF1877AB07C</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>67A10D98-A946-E497-CCDE-0A2DF72B34E9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E100942-500B-FB7E-579D-139435DD2BD2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F5DEF53-211F-2B0E-317B-191FDC87AE4E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

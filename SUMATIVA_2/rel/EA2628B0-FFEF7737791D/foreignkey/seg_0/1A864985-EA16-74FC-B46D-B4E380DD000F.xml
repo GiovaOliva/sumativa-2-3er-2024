@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A864985-EA16-74FC-B46D-B4E380DD000F" containerWithKeyObject="C1B68346-2A4D-93E7-A7C3-574FD214E5A9" localFKIndex="BAA4A8FD-9C3C-2CA7-1690-DEA708B3FE3C" name="VEHICULOS_CLIENTES_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 01:52:41 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<referredTableLongName>CLIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9FED677-5A3D-3D20-47DB-CD0C1E4CAD01</referredTableID>
+<keyObject>3E685C2D-2E17-CA5C-8BD8-075E05816094</keyObject>
+<referredKeyID>3E685C2D-2E17-CA5C-8BD8-075E05816094</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

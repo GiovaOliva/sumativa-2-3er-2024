@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AD7D588-62D2-229A-0BC6-D03695342656" name="REPUESTOS_ORDENES">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 02:20:25 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPUESTOS_ID_REPUESTO" id="F54A397B-92C6-E0AA-3B56-D534ACB62BC0">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 02:24:15 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E22AC30-467A-8C85-565C-FEA707C32678" referredColumn="13ACB997-7401-2E98-5EE0-25BE1C228862"/>
+</associations>
+</Column>
+<Column name="ORDENES_DE_SERVICIOS_ID_ORDEN" id="F2BAC4BA-310B-C418-5796-E49854622644">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 02:24:15 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="891E8C45-6AA0-655D-5B03-4CC185AAFCFC" referredColumn="1E375B0E-34EA-3B3B-1518-C517FDB09FA8"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="B381907D-D8D5-B976-C208-2A0071DB2B02">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 02:24:15 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E9112FD-8F41-C874-AFF0-514E1B9BD9A2" name="REPUESTOS_ORDENES_REPUESTOS_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 02:24:15 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F54A397B-92C6-E0AA-3B56-D534ACB62BC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BE00C37-C32E-B249-E9BB-9535D82AA6F8" name="REPUESTOS_ORDENES_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 02:24:15 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2BAC4BA-310B-C418-5796-E49854622644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

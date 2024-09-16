@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9A31E79-25BA-3CC8-26EA-9D8756B289CE" name="REPUESTOS ORDENES">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>1AD7D588-62D2-229A-0BC6-D03695342656</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID REPUESTO" id="66D0A73E-3F2A-4831-92A1-9CB91F0068EB">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>B426BB09-63F2-7B12-0ECF-EEDFCDDEAE7B</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>C346B4C5-F9A3-F1E7-3DC9-A8A7B67C4615</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ORDEN" id="77C6BF0D-BE2D-DB27-57DC-CB24F96840EA">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>ADE90164-6434-B5B4-17DF-875B62734D81</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>1F912CA4-3B2C-486C-55AC-CC4CFB9EDF96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD" id="40092945-1921-503F-D4F8-8575D66F2DAD">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>B381907D-D8D5-B976-C208-2A0071DB2B02</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

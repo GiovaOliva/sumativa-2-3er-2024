@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REPUESTOS_FK" directorySegmentName="seg_0" id="B426BB09-63F2-7B12-0ECF-EEDFCDDEAE7B">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>1E22AC30-467A-8C85-565C-FEA707C32678</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<sourcePk>AF931623-EDC7-B9DA-5E2A-3F3683239A9C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60E4E45C-8AE4-6BB8-BCB6-63146017FC82</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9A31E79-25BA-3CC8-26EA-9D8756B289CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

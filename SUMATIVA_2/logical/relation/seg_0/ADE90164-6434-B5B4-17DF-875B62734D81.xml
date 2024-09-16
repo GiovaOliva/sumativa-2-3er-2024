@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDENES_DE_SERVICIOS_FK" directorySegmentName="seg_0" id="ADE90164-6434-B5B4-17DF-875B62734D81">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 04:37:14 UTC</createdTime>
+<generatorID>891E8C45-6AA0-655D-5B03-4CC185AAFCFC</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<sourcePk>79228043-C469-7648-48E8-DAF58369A928</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F5DEF53-211F-2B0E-317B-191FDC87AE4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9A31E79-25BA-3CC8-26EA-9D8756B289CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

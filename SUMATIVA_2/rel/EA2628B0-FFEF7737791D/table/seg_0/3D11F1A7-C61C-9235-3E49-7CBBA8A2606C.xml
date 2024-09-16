@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D11F1A7-C61C-9235-3E49-7CBBA8A2606C" name="VALIDACION">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:09:56 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VALIDACION" id="F6D3A8A3-1683-9C7B-5ABD-072AE498C800">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:12:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="74DEB770-51F8-E63E-0593-F74213A74E63">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:12:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALIDADO" id="A975FD6B-65B4-06B6-7059-55615ACBFD80">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:12:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADOS_ID_EMPLEADO" id="D152DC65-EEEF-CC62-5C33-A92CBFCA4170">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:12:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="356B56B3-6893-8F6F-9834-8FE81A547BBF" referredColumn="BCF6D28D-6803-B67A-164E-0D4C03C636AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B71072C7-9EEC-0D8B-0021-E83B0A09D88C" name="VALIDACION_PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:12:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6D3A8A3-1683-9C7B-5ABD-072AE498C800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5A242F5-CC31-42DA-65C2-508B95DB7ACA" name="VALIDACION_EMPLEADOS_FK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:38:10 UTC</createdTime>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D152DC65-EEEF-CC62-5C33-A92CBFCA4170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

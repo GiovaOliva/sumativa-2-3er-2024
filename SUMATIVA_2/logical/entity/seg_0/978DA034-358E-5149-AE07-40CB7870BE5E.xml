@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="978DA034-358E-5149-AE07-40CB7870BE5E" name="SERVICIOS">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>4FA15D3D-BF05-0AF7-16E0-99B323E85685</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID SERVICIO" id="7995C8BF-361B-AA94-4A02-94AD5B1421FC">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>4F288202-0126-0220-7B4F-BF7FFACB9478</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="08ACCFAB-1F65-AC4C-76A5-63833F7D4787">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>3DF686D6-192F-AA8F-F642-6F6220181301</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR" id="1C5962DF-36CA-C454-A684-B52519C53A1F">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>DFDA572E-5C7B-A424-FC91-51085DC88E8F</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9CCB33E-9A46-675C-9C71-93753C1D9ED1" name="SERVICIOS PK">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>1EAF8D23-936D-F1EA-DBFA-224A7246CBE8</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7995C8BF-361B-AA94-4A02-94AD5B1421FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

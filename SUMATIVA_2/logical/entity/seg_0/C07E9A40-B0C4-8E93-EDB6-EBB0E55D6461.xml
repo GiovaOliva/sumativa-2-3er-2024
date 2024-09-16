@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C07E9A40-B0C4-8E93-EDB6-EBB0E55D6461" name="DETALLE ORDEN SERVICIOS">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>9792A374-D471-1FA4-5193-58A6690C714B</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ORDEN" id="6EF150ED-77B4-5224-D065-1EF3AC4D0A9B">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>39852137-E4FC-87B8-BD17-B430B460BE82</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>1F912CA4-3B2C-486C-55AC-CC4CFB9EDF96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID SERVICIO" id="06FA7302-B7E7-D5E4-3479-FF5C094128B2">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>05871893-3400-3B4E-AFFA-49A3C42CB528</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>7995C8BF-361B-AA94-4A02-94AD5B1421FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID VALIDACION" id="AF2A0C6C-23DF-0A70-0B33-E49306851653">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>DA4CB1E0-F391-3D7F-B2A9-A91BDD69E651</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>05EE0879-1D55-9150-395A-551DA3F67961</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="84F2922D-1BD1-C408-BA58-F8C7BE0AA3CD">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:18:08 UTC</createdTime>
+<generatorID>6E543B51-4532-625A-D173-1FDB284DC474</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENCARGADO" id="56C06F7E-B14A-105C-8DED-6B957CE6DCBE">
+<createdBy>gio</createdBy>
+<createdTime>2024-09-16 05:40:58 UTC</createdTime>
+<generatorID>FDA6660D-1798-BD1B-FF06-1C4D01FD50DB</generatorID>
+<ownerDesignName>SUMATIVA_2</ownerDesignName>
+<engineerTo>
+<item key="EA2628B0-AE57-B171-D393-FFEF7737791D" value="true"/>
+</engineerTo>
+<referedAttribute>925C4E37-C416-21EE-FC0C-109BC785850D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
